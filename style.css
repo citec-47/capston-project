@@ -107,8 +107,15 @@ nav {
   cursor: pointer;
 }
 
-.exit img {
-  background-color: var(--white);
+img {
+  margin: 0 auto;
+  border-left: 1px solid var(--color);
+  border-top: 1px solid var(--color);
+  border-right: 1px solid var(--color);
+  padding: 10px;
+  border-radius: 25px;
+  grid-column: 1/6;
+  grid-row: 1/2;
 }
 
 .bttn {
@@ -238,7 +245,7 @@ nav {
 }
 
 .codes-name {
-  color: var(--secondary-color);
+  color: var(--white);
   font-size: 15px;
 }
 
@@ -336,7 +343,7 @@ button:hover {
   font-size: 16px;
   font-weight: 700;
   color: var(--first-color);
-  margin: 5px 0;
+  margin: 5px 19px;
 }
 
 .lecturer_title {
