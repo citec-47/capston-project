@@ -11,12 +11,11 @@
 :root {
   --first-color: #272a31;
   --color: #ec5242;
-    --aqua: #86fbfb;
-    --white: #d3d3d3;
-    --font-size: 1.3rem;
-    --mono: "Oxygen mono", monospace;
-    --sans: Oxygen, sans-serif;
-  
+  --aqua: #86fbfb;
+  --white: #d3d3d3;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: oxygen, sans-serif;
 }
 
 body {
@@ -45,12 +44,28 @@ nav {
   overflow: hidden;
   z-index: 2;
 }
+
 .nav,
 .logQ {
   display: none;
 }
-.logQ:hover{
-  color:var(--white);
+
+.logQ {
+  color: #f55e17;
+  font-family: 'Julee', sans-serif;
+  font-size: 20px;
+  margin: 0 20px;
+  border: 3px solid var(--color);
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 50%;
+  padding: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.logQ:hover {
+  color: var(--white);
   background-color: var(--first-color);
 }
 
@@ -91,8 +106,9 @@ nav {
   top: 10px;
   cursor: pointer;
 }
-.exit img{
-  background-color:var(--white);
+
+.exit img {
+  background-color: var(--white);
 }
 
 .bttn {
@@ -158,11 +174,11 @@ nav {
   color: var(--first-color);
   font-size: 16px;
   font-weight: 900;
-  margin-left: 0rem;
+  margin-left: 0;
 }
 
 .head-one h5 {
- display: none;
+  display: none;
 }
 
 .course {
@@ -249,9 +265,9 @@ button {
   color: #fff;
   background: var(--secondary-color);
   cursor: pointer;
-  
 }
-button:hover{
+
+button:hover {
   border: 1px solid var(--color);
 }
 
@@ -353,20 +369,6 @@ footer {
   align-items: center;
 }
 
-.logQ {
-  color: #f55e17;
-  font-family: 'Julee', sans-serif;
-  font-size: 20px;
-  margin: 0 20px;
-  border: 3px solid var(--color);
-  border-right: 0;
-  border-bottom: 0;
-  border-radius: 50%;
-  padding: 10px;
-  user-select: none;
-  cursor: pointer;
-}
-
 .mac2 {
   display: block;
 }
@@ -382,31 +384,31 @@ footer {
 .document span {
   display: none;
 }
-.AboutB{
- 
-  color:#272a31;
+
+.AboutB {
+  color: #272a31;
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
-  
 }
-.Btext{
+
+.Btext {
   color: #fa2810;
 }
+
 .aboutA {
-display: none;
-}
-.Atext{
   display: none;
 }
 
+.Atext {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .sectA {
     width: 100%;
     height: auto;
     background: #272a31;
-    height: 52px;
     color: #fff;
     display: flex;
     justify-content: flex-end;
@@ -455,10 +457,6 @@ display: none;
     display: none;
   }
 
-  .SectAb {
-    display: none;
-  }
-
   .SectAa {
     display: block;
     margin-right: 40px;
@@ -480,13 +478,15 @@ display: none;
     color: var(--white);
     background-color: var(--first-color);
   }
-  .sectA-u a:active{
+
+  .sectA-u a:active {
     color: var(--first-color);
     background-color: var(--white);
     border: 1px solid var(--color);
-    padding:3px ;
+    padding: 3px;
     border-radius: 2px;
   }
+
   .bttn {
     color: var(--secondary-color);
     border: 2px solid var(--color);
@@ -532,9 +532,11 @@ display: none;
     column-count: 2;
     margin-left: 35px;
   }
+
   .lectmore {
     margin-left: 44px;
   }
+
   .lectse {
     width: 400px;
     height: 200px;
@@ -556,16 +558,6 @@ display: none;
     margin-left: 15px;
   }
 
-  img{
-    margin: 0 auto;
-    border-left:1px solid var(--color);
-    border-top:1px solid var(--color);
-    border-right: 1px solid var(--color);
-    padding: 10px;
-    border-radius: 25px;
-    grid-column: 1/6;;
-    grid-row: 1/2;
-  }
   .mName_name {
     font-size: 18px;
   }
@@ -586,22 +578,23 @@ display: none;
   .document {
     width: 40%;
   }
-  .AboutB{
- 
-    color:#272a31;
+
+  .AboutB {
+    color: #272a31;
     display: flex;
     flex-direction: column;
     margin-left: 25rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
-  .Btext{
+
+  .Btext {
     color: #fa2810;
   }
+
   .aboutA {
     height: auto;
     width: 85%;
-    height: 50px;
     padding: 15px 8px;
     background: #ffffff1a;
     align-self: center;
@@ -613,34 +606,33 @@ display: none;
     text-align: center;
     font-size: 20px;
   }
-  .Atext{
+
+  .Atext {
     width: 50%;
   }
-
-  
 }
 
 @media screen and (max-width: 1040px) {
   .homewhite {
     display: none;
   }
-  .AboutB{
- 
-    color:#272a31;
+
+  .AboutB {
+    color: #272a31;
     display: flex;
     flex-direction: column;
     margin-left: 25rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
-  .Btext{
+
+  .Btext {
     color: #fa2810;
   }
 
   .aboutA {
     height: auto;
     width: 85%;
-    height: 50px;
     padding: 15px 8px;
     background: #ffffff1a;
     align-self: center;
@@ -652,7 +644,8 @@ display: none;
     text-align: center;
     font-size: 20px;
   }
-  .Atext{
+
+  .Atext {
     width: 50%;
   }
 }
