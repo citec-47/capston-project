@@ -125,9 +125,7 @@ npm start
 ### Testing
 
  npm run test
-
-To run the project, execute the following command:
-
+ 
 ### Deployment
 
 Still under construction:
