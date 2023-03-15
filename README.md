@@ -109,17 +109,6 @@ Clone this repository to your desired folder:
 ```
 
 
-### Install
-
-Install this project with:
-
-
-```sh
-  cd my-project
- npm install
-```
-
-
 ### Deployment
 
 Still under construction:
@@ -135,6 +124,18 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 
+
+### Install
+
+Install this project with:
+
+
+```sh
+  cd Vscode
+ npm install
+ --- Chrome Browser
+
+```
 👤 **Author1**
 
 - GitHub: [NdonyiMaurice](https://github.com/citec-47)
