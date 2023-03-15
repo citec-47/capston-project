@@ -125,10 +125,10 @@ npm start
 ### Testing
 
  npm run test
- 
+
 ### Deployment
 
-Still under construction:
+Github Pages
 
 <!--
 Example:
