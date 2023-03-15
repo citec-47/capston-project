@@ -109,6 +109,25 @@ Clone this repository to your desired folder:
 ```
 
 
+### Install
+
+Install this project with:
+
+
+```sh
+  cd todolist
+  node version 16 or higher
+```
+### Usage
+To run the project, execute the following command:
+
+npm start
+### Testing
+
+ npm run test
+
+To run the project, execute the following command:
+
 ### Deployment
 
 Still under construction:
@@ -124,18 +143,6 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 
-
-### Install
-
-Install this project with:
-
-
-```sh
-  cd Vscode
- npm install
- --- Chrome Browser
-
-```
 👤 **Author1**
 
 - GitHub: [NdonyiMaurice](https://github.com/citec-47)
