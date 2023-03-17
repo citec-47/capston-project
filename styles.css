@@ -1,0 +1,595 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'lato', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  padding: 1rem;
+  width: 100vw;
+}
+
+/* Header and Section 1 */
+
+.header-section1-container {
+  background-image: url('./Images/phone.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 5vw;
+}
+
+/* Header */
+
+.onehead .status {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.onehead .status span {
+  display: block;
+  height: 5px;
+  width: 25px;
+  margin-bottom: 5px;
+  background: #333;
+}
+
+.onehead .phone-nav {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  background: #e4e4e4;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.onehead .phone-nav .a {
+  position: relative;
+  left: 20px;
+  top: 50px;
+  color: rgb(111, 110, 110);
+}
+
+.onehead .phone-nav .exit {
+  color: grey;
+  position: relative;
+  right: 20px;
+  cursor: pointer;
+}
+
+.onehead .phone-nav .an:hover,
+.onehead .phone-nav.exit:hover {
+  color: #ec5242;
+}
+
+.onehead .phone-nav .listA {
+  margin-top: 30px;
+}
+
+.onehead .phone-nav .cant {
+  border: solid 4px red;
+  padding: 10px;
+  color: #ec5242;
+  white-space: nowrap;
+}
+
+.onehead .large-device {
+  display: none;
+}
+
+/* Section 1 */
+
+.sectAA {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 60px 0;
+}
+
+.sectAA .tabq {
+  color: #ec5242;
+  font-size: larger;
+}
+
+.sectAA .het {
+  color: #ec5242;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.sectAA .putch {
+  background: #efefef;
+  border: 3px solid white;
+  padding: 20px;
+}
+
+.sectAA .day {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 900;
+  color: #272a31;
+}
+
+/* Main program Section */
+
+.sectBB {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 5vw;
+  background: #272a31 url('./Images/ball.png') repeat center;
+}
+
+.sectBB .httwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sectBB .h2 {
+  width: auto;
+}
+
+.sectBB .hline {
+  height: 1px;
+  width: 50px;
+  background-color: #ec5242;
+}
+
+.sectBB .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sectBB .sectccc {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+.sectBB .loom {
+  height: 30px;
+  width: 30px;
+}
+
+.sectBB .putch {
+  font-size: 12px;
+}
+
+.sectBB .part {
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.sectBB .mdn {
+  height: 70px;
+  width: 300px;
+  background: #ec5242;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: 600;
+}
+
+.sectBB .mtn {
+  display: none;
+}
+
+.back {
+  width: 374px;
+}
+
+.back img {
+  width: 100%;
+}
+
+/* Featured Speakers Section */
+
+.cccc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 5vw;
+}
+
+.cccc .httwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cccc .hline {
+  height: 1px;
+  width: 50px;
+  background-color: #ec5242;
+}
+
+.cccc.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cccc .sectccc {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.cccc .sectccc:nth-child(n + 3) {
+  display: none;
+}
+
+.cccc .chess-box {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+}
+
+.cccc .image {
+  height: 100px;
+  width: 100px;
+  transform: translate(10px, 10px);
+}
+
+.cccc .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cccc .linet {
+  height: 1px;
+  width: 30px;
+  background-color: #272a31;
+}
+
+.cccc .headline {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.cccc .boxes {
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgb(202, 200, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.cccc .putch {
+  font-size: 10px;
+}
+
+.cccc .boxes:hover {
+  color: #ec5242;
+}
+
+/* Partners Section */
+
+.sectDD {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 5vw;
+  background: #272a31;
+  color: white;
+}
+
+.sectDD .httwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sectDD .hline {
+  height: 1px;
+  width: 50px;
+  background-color: #ec5242;
+}
+
+.sectDD .pics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sectDD .image {
+  height: 50px;
+  width: 150px;
+}
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 5vw;
+}
+
+.footer .Xlogo {
+  height: 30px;
+  width: 160px;
+}
+
+.footer .sectBBbb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.footer .import {
+  display: none;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+  .header-section1-container {
+    background-image: none;
+    padding: 0;
+  }
+
+  /* Header */
+
+  .onehead .status {
+    display: none;
+  }
+
+  .onehead .large-device {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .onehead .Xlogo {
+    height: 40px;
+    width: 105px;
+  }
+
+  .onehead .large-device .small {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    background: #272a31;
+    padding: 10px 15vw;
+    color: white;
+    font-size: 10px;
+  }
+
+  .onehead .large-device .start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 15vw;
+  }
+
+  .onehead .large-device .start .list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .onehead .large-device .start .a {
+    color: #9d9d9d;
+    font-size: 15px;
+  }
+
+  .onehead .large-device .start.a:hover {
+    color: #ec5242;
+  }
+
+  .onehead .large-device .start .cant {
+    border: solid 4px red;
+    padding: 10px;
+    color: #ec5242;
+    white-space: nowrap;
+  }
+
+  /* Section 1 */
+
+  .sectAA {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 150px 30vw 150px 15vw;
+    background-image: url('./Image/desk.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .sectAA .tabq {
+    color: #ec5242;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .sectAA .het {
+    color: #ec5242;
+    font-size: 60px;
+    line-height: 60px;
+    max-width: 50vw;
+  }
+
+  .sectAA .p {
+    background: #efefef;
+    border: 3px solid white;
+    padding: 20px;
+    max-width: 530px;
+  }
+
+  .sectAA .day {
+    font-size: 25px;
+    font-weight: 900;
+    color: #272a31;
+  }
+
+  /* Main program Section */
+
+  .sectBB {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 15vw;
+  }
+
+  .sectBB .httwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sectBB .h2 {
+    width: auto;
+  }
+
+  .sectBB .hline {
+    height: 1px;
+    width: 50px;
+    background-color: #ec5242;
+  }
+
+  .sectBB .container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .sectBB .sectccc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.2);
+    text-align: center;
+    width: 12vw;
+  }
+
+  .sectBB .loom {
+    height: 60px;
+    width: 60px;
+  }
+
+  .sectBB .part {
+    color: #ec5242;
+    font-size: x-large;
+  }
+
+  .sectBB .mdn {
+    display: none;
+  }
+
+  .sectBB .mtn {
+    display: block;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 5px;
+  }
+
+  .back {
+    width: 70%;
+  }
+
+  /* Featured Speakers Section */
+
+  .cccc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 15vw;
+  }
+
+  .cccc .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .cccc .sectccc {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .cccc .boxes {
+    display: none;
+  }
+
+  .cccc .sectccc:nth-child(n + 3) {
+    display: flex;
+  }
+
+  /* Footer */
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding: 50px 15vw;
+  }
+
+  .footer .Xlogo {
+    height: 40px;
+    width: 210px;
+  }
+
+  .footer .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 550px;
+    font-size: 13px;
+  }
+
+  .footer .sectBBbb {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+  }
+
+  .footer .import {
+    display: block;
+  }
+}
