@@ -9,42 +9,42 @@ const mored = document.querySelector('.cccc .boxes');
 const speakers = [
   {
     index: 0,
-    image: '../Image/lects/benard.jpg',
+    image: './Image/lects/benard.jpg',
     name: 'Brendan Eich',
     headline: 'President of Young Pirates of Europe',
     p: "European ingetration, political democracy and participation of youth through online as her major condern, Reda's report outlining potential changes to EU copyright law was approved by the Parliament in July.",
   },
   {
     index: 1,
-    image: '../Image/lects/rashel.jpg',
+    image: './Image/lects/rashel.jpg',
     name: 'Radia Perlman',
     headline: 'Executive Director of the Wikimedia Foundation',
     p: 'Lila Tretiov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.',
   },
   {
     index: 2,
-    image: '../Image/lects/Donarld.jpg',
+    image: './Image/lects/Donarld.jpg',
     name: 'Dennis Ritchie',
     headline: 'Director of Art Centre Nabl and a board member of CC Korea',
     p: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology. humanites, and the arts.',
   },
   {
     index: 3,
-    image: '../Image/lects/ken.jpg',
+    image: './Image/lects/ken.jpg',
     name: 'ken Thompson',
     headline: 'King of The South',
     p: "Kilnam Chon helped bring the Internet to Asia and is an outspoken advocate for the open web and digital com mons. In 2012, he was inducted into the inaugural ass of the Internet Society's (ISOC) Internet Hall of Fame.",
   },
   {
     index: 4,
-    image: '../Image/lects/Larry.jpg',
+    image: './Image/lects/Larry.jpg',
     name: 'Larry Page',
     headline: 'Founder & CEO of Google',
     p: 'Lawrence Edward Page is an American business magnate, computer scientist and internet entrepreneur. He is best known for co-founding Google with Sergey Brin.',
   },
   {
     index: 5,
-    image: '../Image/lects/mam.jpg',
+    image: './Image/lects/mam.jpg',
     name: 'Margaret Hamilton',
     headline: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
     p: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open source movement.',
@@ -58,7 +58,7 @@ speakers.forEach((speaker) => {
   const imgContainer = document.createElement('div');
   const chessBox = document.createElement('img');
   chessBox.classList.add('chess-box');
-  chessBox.src = '../Image/lects/chess.jpg';
+  chessBox.src = './Image/lects/chess.jpg';
   chessBox.alt = 'image';
   const img = document.createElement('img');
   img.classList.add('image');

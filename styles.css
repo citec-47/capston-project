@@ -14,7 +14,7 @@ body {
 /* Header and Section 1 */
 
 .header-section1-container {
-  background-image: url('/Images/phone.png');
+  background-image: url('./Images/phone.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@ body {
   align-items: center;
   gap: 30px;
   padding: 50px 5vw;
-  background: #272a31 url('/Images/ball.png') repeat center;
+  background: #272a31 url('./Images/ball.png') repeat center;
 }
 
 .sectBB .httwo {
@@ -415,7 +415,7 @@ body {
     gap: 10px;
     margin: 0;
     padding: 150px 30vw 150px 15vw;
-    background-image: url('/Images/desk.png');
+    background-image: url('./Images/desk.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
