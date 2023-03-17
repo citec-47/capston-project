@@ -14,7 +14,7 @@ body {
 /* Header and Section 1 */
 
 .Acontainer {
-  background-image: url('../images/phone.png');
+  background-image: url('../Images/phone.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,12 +201,10 @@ body {
   align-items: center;
   gap: 20px;
   background:
-    linear-gradient(
-      0deg,
+    linear-gradient(0deg,
       rgba(232, 117, 107, 0.687),
-      rgba(233, 74, 74, 0.664)
-    ),
-    url('../images/projects/playce.jpg');
+      rgba(233, 74, 74, 0.664)),
+    url('../Images/projects/playce.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -218,12 +216,10 @@ body {
   align-items: center;
   gap: 20px;
   background:
-    linear-gradient(
-      0deg,
+    linear-gradient(0deg,
       rgba(232, 117, 107, 0.687),
-      rgba(233, 74, 74, 0.664)
-    ),
-    url('../images/projects/playce2.jpg');
+      rgba(233, 74, 74, 0.664)),
+    url('../Images/projects/playce2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -333,7 +329,7 @@ body {
     margin: 0;
     padding: 150px 20vw 150px 20vw;
     text-align: center;
-    background-image: url('../images/desk.png');
+    background-image: url('../Images/desk.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
