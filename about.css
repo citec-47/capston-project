@@ -201,9 +201,11 @@ body {
   align-items: center;
   gap: 20px;
   background:
-    linear-gradient(0deg,
+    linear-gradient(
+      0deg,
       rgba(232, 117, 107, 0.687),
-      rgba(233, 74, 74, 0.664)),
+      rgba(233, 74, 74, 0.664)
+    ),
     url('../Images/projects/playce.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,9 +218,11 @@ body {
   align-items: center;
   gap: 20px;
   background:
-    linear-gradient(0deg,
+    linear-gradient(
+      0deg,
       rgba(232, 117, 107, 0.687),
-      rgba(233, 74, 74, 0.664)),
+      rgba(233, 74, 74, 0.664)
+    ),
     url('../Images/projects/playce2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
