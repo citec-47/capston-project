@@ -67,26 +67,26 @@ speakers.forEach((speaker) => {
   imgContainer.appendChild(chessBox);
   imgContainer.appendChild(img);
 
-  const content = document.createElement('div');
-  content.classList.add('content');
-  const name = document.createElement('h3');
-  name.classList.add('name');
-  name.textContent = speaker.name;
-  const headline = document.createElement('div');
-  headline.classList.add('headline');
-  headline.textContent = speaker.headline;
-  const grayLine = document.createElement('div');
-  grayLine.classList.add('gray-line');
-  const p = document.createElement('p');
-  p.classList.add('p');
-  p.textContent = speaker.p;
-  content.appendChild(name);
-  content.appendChild(headline);
-  content.appendChild(grayLine);
-  content.appendChild(p);
+  const com = document.createElement('div');
+  com.classList.add('content');
+  const nom = document.createElement('h3');
+  nom.classList.add('nom');
+  nom.textContent = speaker.nom;
+  const headz = document.createElement('div');
+  headz.classList.add('headline');
+  headz.textContent = speaker.headz;
+  const line = document.createElement('div');
+  line.classList.add('linet');
+  const put = document.createElement('p');
+  put.classList.add('p');
+  put.textContent = speaker.p;
+  com.appendChild(nom);
+  com.appendChild(headz);
+  com.appendChild(line);
+  com.appendChild(put);
 
   innerContainer.appendChild(imgContainer);
-  innerContainer.appendChild(content);
+  innerContainer.appendChild(com);
   container.appendChild(innerContainer);
 });
 
