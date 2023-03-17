@@ -8,6 +8,7 @@
 }
 
 body {
+  padding: 1rem;
   width: 100vw;
 }
 
@@ -188,6 +189,14 @@ body {
 
 .sectBB .mtn {
   display: none;
+}
+
+.back {
+  width: 374px;
+}
+
+.back img {
+  width: 100%;
 }
 
 /* Featured Speakers Section */
@@ -415,7 +424,7 @@ body {
     gap: 10px;
     margin: 0;
     padding: 150px 30vw 150px 15vw;
-    background-image: url('./Images/desk.png');
+    background-image: url('./Image/desk.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -511,6 +520,10 @@ body {
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 5px;
+  }
+
+  .back {
+    width: 70%;
   }
 
   /* Featured Speakers Section */
